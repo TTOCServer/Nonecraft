@@ -43,7 +43,7 @@ That's it!
 
 Normally the .jar will automatically generate ip2stress.txt in the running directory. If not, please create it (pay attention to non-ASCII character filenames!)
 The format of ip2stress.txt is as follows:
-<IP> = <text>
+`<IP> = <text>`
 ```text
 127.0.0.1 = Local
 192.168.3.1 = Grade 10 Class 1
@@ -88,7 +88,7 @@ java -jar <文件名>
 
 一般情况下.jar会自动生成ip2stress.txt在运行目录。如果没有，请创建(注意非ASCII字符的文件名!)
 ip2stress.txt格式如下：
-<IP> = <text>
+`<IP> = <text>`
 ```text
 127.0.0.1 = 本地
 192.168.3.1 = 高一(1)班
@@ -106,3 +106,4 @@ ip2stress.txt格式如下：
 mvn clean package
 
 ```
+
