@@ -1,0 +1,27 @@
+# 조선어 언어 파일
+startup:
+  loading: "Nonecraft 시작 중..."
+  config_loaded: "설정 파일을 성공적으로 불러왔습니다"
+  geolite_loaded: "GeoLite2 데이터베이스를 성공적으로 불러왔습니다"
+  ip2stress_loaded: "IP2Stress 매핑 파일을 성공적으로 불러왔습니다"
+  tcp_started: "TCP 서버가 포트 {0}에서 시작되었습니다"
+  udp_started: "UDP 서버가 포트 {0}에서 시작되었습니다"
+  server_ready: "Nonecraft 서버가 준비되었습니다"
+
+shutdown:
+  stopping: "Nonecraft 종료 중..."
+  servers_stopped: "모든 서버가 중지되었습니다"
+  cleanup_complete: "정리 완료"
+
+error:
+  config_load_failed: "설정 파일 불러오기 실패: {0}"
+  geolite_load_failed: "GeoLite2 데이터베이스 불러오기 실패: {0}"
+  ip2stress_load_failed: "IP2Stress 매핑 파일 불러오기 실패: {0}"
+  server_start_failed: "서버 시작 실패: {0}"
+  unknown_error: "알 수 없는 오류: {0}"
+
+log:
+  ping_received: "{0}에서 PING 요청을 받았습니다"
+  connection_attempt: "{0}에서 연결 시도"
+  geo_location: "지리적 위치: {0}"
+  player_join_attempt: "플레이어 {0}이(가) 참여를 시도했습니다"

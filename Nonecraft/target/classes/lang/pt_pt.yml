@@ -1,0 +1,27 @@
+# Arquivo de idioma português
+startup:
+  loading: "Iniciando Nonecraft..."
+  config_loaded: "Arquivo de configuração carregado com sucesso"
+  geolite_loaded: "Base de dados GeoLite2 carregada com sucesso"
+  ip2stress_loaded: "Arquivo de mapeamento IP2Stress carregado com sucesso"
+  tcp_started: "Servidor TCP iniciado na porta {0}"
+  udp_started: "Servidor UDP iniciado na porta {0}"
+  server_ready: "Servidor Nonecraft pronto"
+
+shutdown:
+  stopping: "Parando Nonecraft..."
+  servers_stopped: "Todos os servidores parados"
+  cleanup_complete: "Limpeza concluída"
+
+error:
+  config_load_failed: "Falha ao carregar o arquivo de configuração: {0}"
+  geolite_load_failed: "Falha ao carregar a base de dados GeoLite2: {0}"
+  ip2stress_load_failed: "Falha ao carregar o arquivo de mapeamento IP2Stress: {0}"
+  server_start_failed: "Falha ao iniciar o servidor: {0}"
+  unknown_error: "Erro desconhecido: {0}"
+
+log:
+  ping_received: "Solicitação PING recebida de {0}"
+  connection_attempt: "Tentativa de conexão de {0}"
+  geo_location: "Localização geográfica: {0}"
+  player_join_attempt: "Jogador {0} tentou entrar"
