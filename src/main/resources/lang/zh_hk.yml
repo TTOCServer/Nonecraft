@@ -1,0 +1,27 @@
+# 繁體中文語言文件 (香港)
+startup:
+  loading: "正在啟動Nonecraft..."
+  config_loaded: "設定檔載入成功"
+  geolite_loaded: "GeoLite2數據庫載入成功"
+  ip2stress_loaded: "IP2Stress映射檔案載入成功"
+  tcp_started: "TCP伺服器已在端口 {0} 啟動"
+  udp_started: "UDP伺服器已在端口 {0} 啟動"
+  server_ready: "Nonecraft伺服器已準備就緒"
+
+shutdown:
+  stopping: "正在關閉Nonecraft..."
+  servers_stopped: "所有伺服器已停止"
+  cleanup_complete: "清理完成"
+
+error:
+  config_load_failed: "設定檔載入失敗: {0}"
+  geolite_load_failed: "GeoLite2數據庫載入失敗: {0}"
+  ip2stress_load_failed: "IP2Stress映射檔案載入失敗: {0}"
+  server_start_failed: "伺服器啟動失敗: {0}"
+  unknown_error: "未知錯誤: {0}"
+
+log:
+  ping_received: "收到PING請求來自 {0}"
+  connection_attempt: "連接嘗試來自 {0}"
+  geo_location: "地理位置: {0}"
+  player_join_attempt: "玩家 {0} 嘗試加入"

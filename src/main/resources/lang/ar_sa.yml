@@ -1,0 +1,27 @@
+# ملف اللغة العربية
+startup:
+  loading: "جاري بدء Nonecraft..."
+  config_loaded: "تم تحميل ملف الإعدادات بنجاح"
+  geolite_loaded: "تم تحميل قاعدة بيانات GeoLite2 بنجاح"
+  ip2stress_loaded: "تم تحميل ملف تعيين IP2Stress بنجاح"
+  tcp_started: "تم بدء خادم TCP على المنفذ {0}"
+  udp_started: "تم بدء خادم UDP على المنفذ {0}"
+  server_ready: "خادم Nonecraft جاهز"
+
+shutdown:
+  stopping: "جاري إيقاف Nonecraft..."
+  servers_stopped: "تم إيقاف جميع الخوادم"
+  cleanup_complete: "اكتمل التنظيف"
+
+error:
+  config_load_failed: "فشل تحميل ملف الإعدادات: {0}"
+  geolite_load_failed: "فشل تحميل قاعدة بيانات GeoLite2: {0}"
+  ip2stress_load_failed: "فشل تحميل ملف تعيين IP2Stress: {0}"
+  server_start_failed: "فشل بدء الخادم: {0}"
+  unknown_error: "خطأ غير معروف: {0}"
+
+log:
+  ping_received: "تم استلام طلب PING من {0}"
+  connection_attempt: "محاولة اتصال من {0}"
+  geo_location: "الموقع الجغرافي: {0}"
+  player_join_attempt: "حاول اللاعب {0} الانضمام"

@@ -1,0 +1,27 @@
+# Қазақ тіліндегі файл
+startup:
+  loading: "Nonecraft қосуда..."
+  config_loaded: "Конфигурация файлы сәтті жүктелді"
+  geolite_loaded: "GeoLite2 дерекқоры сәтті жүктелді"
+  ip2stress_loaded: "IP2Stress карталау файлы сәтті жүктелді"
+  tcp_started: "TCP сервері {0} портында іске қосылды"
+  udp_started: "UDP сервері {0} портында іске қосылды"
+  server_ready: "Nonecraft сервері дайын"
+
+shutdown:
+  stopping: "Nonecraft тоқтатылуда..."
+  servers_stopped: "Барлық серверлер тоқтатылды"
+  cleanup_complete: "Тазалау аяқталды"
+
+error:
+  config_load_failed: "Конфигурация файлын жүктеу сәтсіз аяқталды: {0}"
+  geolite_load_failed: "GeoLite2 дерекқорын жүктеу сәтсіз аяқталды: {0}"
+  ip2stress_load_failed: "IP2Stress карталау файлын жүктеу сәтсіз аяқталды: {0}"
+  server_start_failed: "Серверді қосу сәтсіз аяқталды: {0}"
+  unknown_error: "Белгісіз қате: {0}"
+
+log:
+  ping_received: "{0} жерінен PING сұранысы қабылданды"
+  connection_attempt: "{0} жерінен қосылу әрекеті"
+  geo_location: "Географиялық орналасуы: {0}"
+  player_join_attempt: "{0} ойыншысы қосылуға әрекет жасады"

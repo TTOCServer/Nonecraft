@@ -1,0 +1,27 @@
+# Русский языковой файл
+startup:
+  loading: "Запуск Nonecraft..."
+  config_loaded: "Файл конфигурации успешно загружен"
+  geolite_loaded: "База данных GeoLite2 успешно загружена"
+  ip2stress_loaded: "Файл отображения IP2Stress успешно загружен"
+  tcp_started: "TCP сервер запущен на порту {0}"
+  udp_started: "UDP сервер запущен на порту {0}"
+  server_ready: "Сервер Nonecraft готов"
+
+shutdown:
+  stopping: "Остановка Nonecraft..."
+  servers_stopped: "Все серверы остановлены"
+  cleanup_complete: "Очистка завершена"
+
+error:
+  config_load_failed: "Ошибка загрузки файла конфигурации: {0}"
+  geolite_load_failed: "Ошибка загрузки базы данных GeoLite2: {0}"
+  ip2stress_load_failed: "Ошибка загрузки файла отображения IP2Stress: {0}"
+  server_start_failed: "Ошибка запуска сервера: {0}"
+  unknown_error: "Неизвестная ошибка: {0}"
+
+log:
+  ping_received: "Получен PING запрос от {0}"
+  connection_attempt: "Попытка подключения от {0}"
+  geo_location: "Географическое местоположение: {0}"
+  player_join_attempt: "Игрок {0} попытался присоединиться"
